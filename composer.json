@@ -1,0 +1,51 @@
+{
+    "name": "guoge/flarum-littletools",
+    "description": "多功能工具箱：含轮播图、滑动广告、自定义HTML注入及权限控制。",
+    "type": "flarum-extension",
+    "keywords": [
+        "flarum",
+        "banner",
+        "slider",
+        "html",
+        "injector",
+        "permission"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guoge Studios",
+            "email": "help@51320721.xyz",
+            "homepage": "https://me.51320721.xyz"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/CHINAGUOGE/flarum-littletools/issues",
+        "source": "https://github.com/CHINAGUOGE/flarum-littletools"
+    },
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Guoge Little Tools",
+            "icon": {
+                "name": "fas fa-toolbox",
+                "color": "#e74c3c",
+                "backgroundColor": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Guoge\\LittleTools\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
