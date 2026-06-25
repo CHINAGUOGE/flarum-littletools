@@ -35,11 +35,6 @@
             }
         }
     },
-    "autoload": {
-        "psr-4": {
-            "Guoge\\LittleTools\\": "src/"
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
