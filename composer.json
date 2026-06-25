@@ -1,5 +1,6 @@
 {
     "name": "guoge/flarum-littletools",
+    "version": "0.2.0",
     "description": "多功能工具箱：含轮播图、滑动广告、自定义HTML注入及权限控制。",
     "type": "flarum-extension",
     "keywords": [

@@ -1,7 +1,7 @@
 {
     "name": "@guoge/flarum-littletools",
     "private": true,
-    "version": "0.1.0",
+    "version": "0.2.0",
     "dependencies": {
         "flarum": "^1.0.0"
     },
