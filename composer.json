@@ -33,12 +33,6 @@
                 "color": "#e74c3c",
                 "backgroundColor": "#fff"
             }
-        },
-        "flarum-cli": {
-            "modules": {
-                "admin": true,
-                "forum": true
-            }
         }
     },
     "autoload": {
